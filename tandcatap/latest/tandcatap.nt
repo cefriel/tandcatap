@@ -1,0 +1,11 @@
+<https://knowledge.c-innovationhub.com/tangent/tandcatap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap> <http://www.w3.org/2000/01/rdf-schema#comment> "Extension of DCAT-AP for the TANGENT project." .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap> <http://www.w3.org/2000/01/rdf-schema#label> "TangentDCAT-AP" .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy> <http://www.w3.org/2000/01/rdf-schema#comment> "Case study the data source is related to." .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy> <http://www.w3.org/2000/01/rdf-schema#label> "Case Study" .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more data requirement(s) covered by the data source." .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Data Requirement" .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." .

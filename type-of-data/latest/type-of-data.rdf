@@ -1,0 +1,49 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:schema="http://schema.org/"
+    xmlns:skosthes="http://purl.org/iso25964/skos-thes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:sh="http://www.w3.org/ns/shacl#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <skos:ConceptScheme rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data">
+    <dct:title xml:lang="en">TANGENT Type of data</dct:title>
+    <dct:description xml:lang="en">Type of data defined in TANGENT.</dct:description>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/static">
+        <skos:prefLabel xml:lang="en">Static</skos:prefLabel>
+        <skos:definition xml:lang="en">Data that do not change or change in very long intervals.</skos:definition>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time">
+        <skos:prefLabel xml:lang="en">Real-time</skos:prefLabel>
+        <skos:definition xml:lang="en">Data that are constantly changing and provide up-to-date information.</skos:definition>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/historical">
+        <skos:prefLabel xml:lang="en">Historical</skos:prefLabel>
+        <skos:definition xml:lang="en">Filtered, aggregated and stored static or real-time data.</skos:definition>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

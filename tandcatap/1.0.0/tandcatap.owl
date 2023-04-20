@@ -1,0 +1,24 @@
+@prefix : <https://knowledge.c-innovationhub.com/tangent/tandcatap#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@base <https://knowledge.c-innovationhub.com/tangent/tandcatap> .
+
+<https://knowledge.c-innovationhub.com/tangent/tandcatap> rdf:type owl:Ontology ;
+                                                           owl:versionIRI <https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0> ;
+                                                           rdfs:comment "Extension of DCAT-AP for the TANGENT project." ;
+                                                           rdfs:label "TangentDCAT-AP" .
+
+###  https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy
+:caseStudy rdf:type owl:DatatypeProperty ;
+           rdfs:comment "Case study the data source is related to." ;
+           rdfs:label "Case Study" .
+
+###  https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement
+:dataRequirement rdf:type owl:ObjectProperty ;
+                 rdfs:comment "One or more data requirement(s) covered by the data source." ;
+                 rdfs:label "Data Requirement" ;
+                 vann:usageNote "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." .

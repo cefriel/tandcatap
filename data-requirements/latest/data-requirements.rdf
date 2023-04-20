@@ -1,0 +1,186 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:schema="http://schema.org/"
+    xmlns:skosthes="http://purl.org/iso25964/skos-thes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:qb="http://purl.org/linked-data/cube#"
+    xmlns:sh="http://www.w3.org/ns/shacl#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <skos:ConceptScheme rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar">
+        <skos:prefLabel xml:lang="en">Holiday Calendar</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data">
+        <skos:prefLabel xml:lang="en">Floating Vehicle Data</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines">
+        <skos:prefLabel xml:lang="en">Public Transport Schedules And Lines</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:description xml:lang="en">Data Requirements for data sources enabling the TANGENT solution.</dct:description>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network">
+        <skos:prefLabel xml:lang="en">Road Transport Network</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events">
+        <skos:prefLabel xml:lang="en">Weather Events</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data">
+        <skos:prefLabel xml:lang="en">Weather Data</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network">
+        <skos:prefLabel xml:lang="en">Public Transport Network</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements">
+        <skos:prefLabel xml:lang="en">Road Traffic Measurements</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events">
+        <skos:prefLabel xml:lang="en">Public Transport Network Events</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes">
+        <skos:prefLabel xml:lang="en">Data About Other Transportation Modes</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events">
+        <skos:prefLabel xml:lang="en">Road Transport Network Events</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy">
+        <skos:prefLabel xml:lang="en">Public Transport Occupancy</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times">
+        <skos:prefLabel xml:lang="en">Road Travel Times</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents">
+        <skos:prefLabel xml:lang="en">Public Transport Network Incidents</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dct:title xml:lang="en">TANGENT Data Requirements</dct:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents">
+        <skos:prefLabel xml:lang="en">Road Transport Network Incidents</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data">
+        <skos:prefLabel xml:lang="en">Floating Public Transport Vehicle Data</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data">
+        <skos:prefLabel xml:lang="en">Forecasted Weather Data</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position">
+        <skos:prefLabel xml:lang="en">Road Equipment Position</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics">
+        <skos:prefLabel xml:lang="en">Drt Fleet Characteristics</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays">
+        <skos:prefLabel xml:lang="en">Public Transport Delays</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone">
+        <skos:prefLabel xml:lang="en">Dcp Policy Zone</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data">
+        <skos:prefLabel xml:lang="en">Public Transport Ticket Validation Data</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events">
+        <skos:prefLabel xml:lang="en">Influencing Planned Events</skos:prefLabel>
+        <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+        <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

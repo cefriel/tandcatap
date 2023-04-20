@@ -1,0 +1,264 @@
+{
+  "@graph" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "@type" : "skos:ConceptScheme",
+    "description" : {
+      "@language" : "en",
+      "@value" : "Data Requirements for data sources enabling the TANGENT solution."
+    },
+    "title" : {
+      "@language" : "en",
+      "@value" : "TANGENT Data Requirements"
+    },
+    "hasTopConcept" : [ "https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar", "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network", "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events", "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events", "https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents", "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data", "https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data", "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position", "https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays", "https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone", "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data", "https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events" ]
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Data About Other Transportation Modes"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Dcp Policy Zone"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Drt Fleet Characteristics"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Floating Public Transport Vehicle Data"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Floating Vehicle Data"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Forecasted Weather Data"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Holiday Calendar"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Influencing Planned Events"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Delays"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Network"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Network Events"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Network Incidents"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Occupancy"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Schedules And Lines"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Public Transport Ticket Validation Data"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Equipment Position"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Traffic Measurements"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Transport Network"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Transport Network Events"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Transport Network Incidents"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Road Travel Times"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Weather Data"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events",
+    "@type" : "skos:Concept",
+    "inScheme" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Weather Events"
+    },
+    "topConceptOf" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "@context" : {
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "schema" : "http://schema.org/",
+    "adms" : "http://www.w3.org/ns/adms#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skosxl" : "http://www.w3.org/2008/05/skos-xl#",
+    "org" : "http://www.w3.org/ns/org#",
+    "skosthes" : "http://purl.org/iso25964/skos-thes#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "qb" : "http://purl.org/linked-data/cube#",
+    "dct" : "http://purl.org/dc/terms/",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "sh" : "http://www.w3.org/ns/shacl#",
+    "euvoc" : "http://publications.europa.eu/ontology/euvoc#",
+    "dcat" : "http://www.w3.org/ns/dcat#",
+    "prov" : "http://www.w3.org/ns/prov#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

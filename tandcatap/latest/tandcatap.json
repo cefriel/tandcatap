@@ -1,0 +1,35 @@
+{
+  "@graph" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap",
+    "@type" : "http://www.w3.org/2002/07/owl#Ontology",
+    "comment" : "Extension of DCAT-AP for the TANGENT project.",
+    "label" : "TangentDCAT-AP",
+    "versionIRI" : "https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy",
+    "@type" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+    "comment" : "Case study the data source is related to.",
+    "label" : "Case Study"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement",
+    "@type" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+    "usageNote" : "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.",
+    "comment" : "One or more data requirement(s) covered by the data source.",
+    "label" : "Data Requirement"
+  } ],
+  "@context" : {
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "usageNote" : {
+      "@id" : "http://purl.org/vocab/vann/usageNote"
+    }
+  }
+}

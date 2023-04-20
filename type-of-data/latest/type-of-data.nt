@@ -1,0 +1,21 @@
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> <http://www.w3.org/2004/02/skos/core#prefLabel> "Real-time"@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> <http://www.w3.org/2004/02/skos/core#definition> "Data that are constantly changing and provide up-to-date information."@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> <http://www.w3.org/2004/02/skos/core#prefLabel> "Historical"@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> <http://www.w3.org/2004/02/skos/core#definition> "Filtered, aggregated and stored static or real-time data."@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://purl.org/dc/terms/title> "TANGENT Type of data"@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://purl.org/dc/terms/description> "Type of data defined in TANGENT."@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/type-of-data/static> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> <http://www.w3.org/2004/02/skos/core#prefLabel> "Static"@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> <http://www.w3.org/2004/02/skos/core#definition> "Data that do not change or change in very long intervals."@en .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
