@@ -1,2 +1,2 @@
 # tandcatap
-Respository for TangentDCAT-AP and related controlled vocabularies.
+Repository for TangentDCAT-AP and related controlled vocabularies.
