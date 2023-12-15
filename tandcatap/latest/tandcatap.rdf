@@ -1,22 +1,254 @@
-<rdf:RDF
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:owl="http://www.w3.org/2002/07/owl#"
-    xmlns="https://knowledge.c-innovationhub.com/tangent/tandcatap#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:vann="http://purl.org/vocab/vann/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap">
-    <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0"/>
-    <rdfs:comment>Extension of DCAT-AP for the TANGENT project.</rdfs:comment>
-    <rdfs:label>TangentDCAT-AP</rdfs:label>
-  </owl:Ontology>
-  <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement">
-    <rdfs:comment>One or more data requirement(s) covered by the data source.</rdfs:comment>
-    <rdfs:label>Data Requirement</rdfs:label>
-    <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.</vann:usageNote>
-  </owl:ObjectProperty>
-  <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy">
-    <rdfs:comment>Case study the data source is related to.</rdfs:comment>
-    <rdfs:label>Case Study</rdfs:label>
-  </owl:DatatypeProperty>
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/tangent/tandcatap#"
+     xml:base="https://knowledge.c-innovationhub.com/tangent/tandcatap"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap">
+        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0"/>
+        <rdfs:comment>Extension of DCAT-AP for the TANGENT project.</rdfs:comment>
+        <rdfs:label>TangentDCAT-AP</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/vocab/vann/usageNote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/usageNote"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy">
+        <rdfs:range rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement">
+        <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.</vann:usageNote>
+        <rdfs:comment>One or more data requirement(s) covered by the data source.</rdfs:comment>
+        <rdfs:label>Data Requirement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData -->
+
+
+    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData">
+        <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.</vann:usageNote>
+        <rdfs:comment>One or more data requirement(s) covered by the data source.</rdfs:comment>
+        <rdfs:label>Type of data</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy -->
+
+
+    <owl:DatatypeProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/Location -->
+
+
+    <owl:Class rdf:about="http://purl.org/dc/terms/Location"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy -->
+
+
+    <owl:Class rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy">
+        <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Location"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1524"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1524 -->
+
+
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q1524"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q597"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q597 -->
+
+
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q597"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q18125"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q18125 -->
+
+
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q18125"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes">
+        <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
+        <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q647"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q647 -->
+
+
+    <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q647"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1524 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1524"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q18125 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18125"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q597 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q597"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q647 -->
+
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q647"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy">
+        <rdfs:comment>Case study the data source is related to.</rdfs:comment>
+        <rdfs:label>Case Study</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

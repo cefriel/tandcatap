@@ -1,43 +1,96 @@
-@prefix schema: <http://schema.org/> .
-@prefix adms: <http://www.w3.org/ns/adms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix org: <http://www.w3.org/ns/org#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qb: <http://purl.org/linked-data/cube#> .
-@prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix sh: <http://www.w3.org/ns/shacl#> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
 
-<https://knowledge.c-innovationhub.com/tangent/type-of-data> a skos:ConceptScheme;
-  dct:title "TANGENT Type of data"@en;
-  dct:description "Type of data defined in TANGENT."@en;
-  skos:hasTopConcept <https://knowledge.c-innovationhub.com/tangent/type-of-data/static>,
-    <https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time>, <https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> .
+[ rdf:type owl:Ontology
+ ] .
 
-<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> a skos:Concept;
-  skos:prefLabel "Static"@en;
-  skos:definition "Data that do not change or change in very long intervals."@en;
-  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/type-of-data>;
-  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+#################################################################
+#    Annotation properties
+#################################################################
 
-<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> a skos:Concept;
-  skos:prefLabel "Real-time"@en;
-  skos:definition "Data that are constantly changing and provide up-to-date information."@en;
-  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/type-of-data>;
-  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
 
-<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> a skos:Concept;
-  skos:prefLabel "Historical"@en;
-  skos:definition "Filtered, aggregated and stored static or real-time data."@en;
-  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/type-of-data>;
-  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://knowledge.c-innovationhub.com/tangent/type-of-data
+<https://knowledge.c-innovationhub.com/tangent/type-of-data> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.w3.org/2004/02/skos/core#ConceptScheme> ;
+                                                             <http://purl.org/dc/terms/description> "Type of data defined in TANGENT."@en ;
+                                                             <http://purl.org/dc/terms/title> "TANGENT Type of data"@en ;
+                                                             <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> ,
+                                                                                                                 <https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> ,
+                                                                                                                 <https://knowledge.c-innovationhub.com/tangent/type-of-data/static> .
+
+
+###  https://knowledge.c-innovationhub.com/tangent/type-of-data/historical
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/historical> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#definition> "Filtered, aggregated and stored static or real-time data."@en ;
+                                                                        <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> ;
+                                                                        <http://www.w3.org/2004/02/skos/core#prefLabel> "Historical"@en ;
+                                                                        <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+
+
+###  https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                       <http://www.w3.org/2004/02/skos/core#definition> "Data that are constantly changing and provide up-to-date information."@en ;
+                                                                       <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> ;
+                                                                       <http://www.w3.org/2004/02/skos/core#prefLabel> "Real-time"@en ;
+                                                                       <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+
+
+###  https://knowledge.c-innovationhub.com/tangent/type-of-data/static
+<https://knowledge.c-innovationhub.com/tangent/type-of-data/static> rdf:type owl:NamedIndividual ,
+                                                                             <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                                                    <http://www.w3.org/2004/02/skos/core#definition> "Data that do not change or change in very long intervals."@en ;
+                                                                    <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/type-of-data> ;
+                                                                    <http://www.w3.org/2004/02/skos/core#prefLabel> "Static"@en ;
+                                                                    <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/type-of-data> .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

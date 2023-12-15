@@ -1,0 +1,457 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Data Requirements for data sources enabling the TANGENT solution."
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "TANGENT Data Requirements"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data"
+  }, {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Data About Other Transportation Modes"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DCP Policy Zone"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "DRT Fleet Characteristics"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Floating Public Transport Vehicle Data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Floating Vehicle Data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Forecasted Weather Data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Holiday Calendar"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Influencing Planned Events"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Delays"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Network"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Network Events"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Network Incidents"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Occupancy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Schedules And Lines"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Public Transport Ticket Validation Data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Equipment Position"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Traffic Measurements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Transport Network"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Transport Network Events"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Transport Network Incidents"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Road Travel Times"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Weather Data"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Weather Events"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/data-requirements"
+  } ]
+} ]

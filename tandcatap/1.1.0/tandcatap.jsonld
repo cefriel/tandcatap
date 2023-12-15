@@ -1,0 +1,109 @@
+[ {
+  "@id" : "http://purl.org/dc/terms/Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/usageNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Extension of DCAT-AP for the TANGENT project."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TangentDCAT-AP"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q1524"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/dc/terms/Location"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q597"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q18125"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/wiki/Q647"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Case study the data source is related to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Case Study"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "One or more data requirement(s) covered by the data source."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Data Requirement"
+  } ]
+}, {
+  "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://purl.org/vocab/vann/usageNote" : [ {
+    "@value" : "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "One or more data requirement(s) covered by the data source."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Type of data"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q1524",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q18125",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q597",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://www.wikidata.org/wiki/Q647",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+} ]

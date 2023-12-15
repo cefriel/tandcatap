@@ -1,0 +1,180 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> a skos:ConceptScheme;
+  dct:description "Data Requirements for data sources enabling the TANGENT solution."@en;
+  dct:title "TANGENT Data Requirements"@en;
+  skos:hasTopConcept <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times>,
+    <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data>, <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Transport Network"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Equipment Position"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Network"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Transport Network Events"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Network Events"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Transport Network Incidents"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Network Incidents"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Traffic Measurements"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Floating Vehicle Data"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Road Travel Times"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Schedules And Lines"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Ticket Validation Data"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Floating Public Transport Vehicle Data"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Delays"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Public Transport Occupancy"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data> a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Weather Data"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events> a
+    skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Weather Events"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Forecasted Weather Data"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Holiday Calendar"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Influencing Planned Events"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "DCP Policy Zone"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "DRT Fleet Characteristics"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
+
+<https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes>
+  a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/data-requirements>;
+  skos:prefLabel "Data About Other Transportation Modes"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/data-requirements> .
