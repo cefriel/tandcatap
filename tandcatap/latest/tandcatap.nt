@@ -110,6 +110,7 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q1524> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens> <http://www.w3.org/2000/01/rdf-schema#label> "Athens" .
 # 
 # https://www.wikidata.org/wiki/Q1524
 # 
@@ -117,6 +118,7 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q597> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon> <http://www.w3.org/2000/01/rdf-schema#label> "Lisbon" .
 # 
 # https://www.wikidata.org/wiki/Q597
 # 
@@ -124,6 +126,7 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q18125> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester> <http://www.w3.org/2000/01/rdf-schema#label> "Manchester" .
 # 
 # https://www.wikidata.org/wiki/Q18125
 # 
@@ -131,6 +134,7 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/wiki/Q647> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes> <http://www.w3.org/2000/01/rdf-schema#label> "Rennes" .
 # 
 # https://www.wikidata.org/wiki/Q647
 # 

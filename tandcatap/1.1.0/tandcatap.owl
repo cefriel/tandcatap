@@ -202,6 +202,7 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1524"/>
+        <rdfs:label>Athens</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -219,6 +220,7 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q597"/>
+        <rdfs:label>Lisbon</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -236,6 +238,7 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q18125"/>
+        <rdfs:label>Manchester</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -253,6 +256,7 @@
     <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes">
         <rdf:type rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"/>
         <owl:sameAs rdf:resource="https://www.wikidata.org/wiki/Q647"/>
+        <rdfs:label>Rennes</rdfs:label>
     </owl:NamedIndividual>
     
 

@@ -107,7 +107,8 @@
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#Athens
 :Athens rdf:type owl:NamedIndividual ,
                  :CaseStudy ;
-        owl:sameAs <https://www.wikidata.org/wiki/Q1524> .
+        owl:sameAs <https://www.wikidata.org/wiki/Q1524> ;
+        rdfs:label "Athens" .
 
 
 ###  https://www.wikidata.org/wiki/Q1524
@@ -115,7 +116,8 @@
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#Lisbon
 :Lisbon rdf:type owl:NamedIndividual ,
                  :CaseStudy ;
-        owl:sameAs <https://www.wikidata.org/wiki/Q597> .
+        owl:sameAs <https://www.wikidata.org/wiki/Q597> ;
+        rdfs:label "Lisbon" .
 
 
 ###  https://www.wikidata.org/wiki/Q597
@@ -123,7 +125,8 @@
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#Manchester
 :Manchester rdf:type owl:NamedIndividual ,
                      :CaseStudy ;
-            owl:sameAs <https://www.wikidata.org/wiki/Q18125> .
+            owl:sameAs <https://www.wikidata.org/wiki/Q18125> ;
+            rdfs:label "Manchester" .
 
 
 ###  https://www.wikidata.org/wiki/Q18125
@@ -131,7 +134,8 @@
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes
 :Rennes rdf:type owl:NamedIndividual ,
                  :CaseStudy ;
-        owl:sameAs <https://www.wikidata.org/wiki/Q647> .
+        owl:sameAs <https://www.wikidata.org/wiki/Q647> ;
+        rdfs:label "Rennes" .
 
 
 ###  https://www.wikidata.org/wiki/Q647

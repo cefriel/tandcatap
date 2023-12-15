@@ -77,6 +77,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Athens"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q1524"
   } ]
@@ -92,6 +95,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lisbon"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q597"
   } ]
@@ -101,6 +107,9 @@
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Manchester"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q18125"
   } ]
@@ -109,6 +118,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
     "@id" : "https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Rennes"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://www.wikidata.org/wiki/Q647"
