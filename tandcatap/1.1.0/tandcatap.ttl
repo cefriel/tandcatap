@@ -7,13 +7,50 @@
 @base <https://knowledge.c-innovationhub.com/tangent/tandcatap#> .
 
 <https://knowledge.c-innovationhub.com/tangent/tandcatap> rdf:type owl:Ontology ;
-                                                           owl:versionIRI <https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0> ;
+                                                           owl:versionIRI <https://knowledge.c-innovationhub.com/tangent/tandcatap/1.1.0> ;
+                                                           <http://purl.org/dc/terms/contributor> "The definition of TangentDCAT-AP is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme."@en ;
+                                                           <http://purl.org/dc/terms/creator> "Marco Comerio (Cefriel)"@en ,
+                                                                                              "Mario Scrocca (Cefriel)"@en ;
+                                                           <http://purl.org/dc/terms/description> "Extension of DCAT-AP for the TANGENT project."@en ;
+                                                           <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> ;
+                                                           <http://purl.org/dc/terms/publisher> "Cefriel"@en ;
+                                                           <http://purl.org/dc/terms/title> "TangentDCAT-AP"@en ;
+                                                           <http://purl.org/ontology/bibo/status> "Published Metadata Specification"@en ;
                                                            rdfs:comment "Extension of DCAT-AP for the TANGENT project." ;
-                                                           rdfs:label "TangentDCAT-AP" .
+                                                           rdfs:label "TangentDCAT-AP" ;
+                                                           owl:versionInfo "1.1.0"@en .
 
 #################################################################
 #    Annotation properties
 #################################################################
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
 
 ###  http://purl.org/vocab/vann/usageNote
 <http://purl.org/vocab/vann/usageNote> rdf:type owl:AnnotationProperty .

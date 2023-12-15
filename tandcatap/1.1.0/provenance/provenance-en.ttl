@@ -2,6 +2,13 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0> a prov:Entity;
+<https://knowledge.c-innovationhub.com/tangent/tandcatap/1.1.0> a prov:Entity;
+	 dc:title "TangentDCAT-AP";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo :agent2;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
+:agent0 a prov:Agent; foaf:name "Marco Comerio (Cefriel)".
+:agent1 a prov:Agent; foaf:name "Mario Scrocca (Cefriel)".
+:agent2 a prov:Agent; foaf:name "The definition of TangentDCAT-AP is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme.".

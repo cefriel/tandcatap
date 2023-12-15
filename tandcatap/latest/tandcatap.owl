@@ -5,12 +5,23 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:vann="http://purl.org/vocab/vann/">
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap">
-        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap/1.0.0"/>
+        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/tandcatap/1.1.0"/>
+        <terms:contributor xml:lang="en">The definition of TangentDCAT-AP is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme.</terms:contributor>
+        <terms:creator xml:lang="en">Marco Comerio (Cefriel)</terms:creator>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:description xml:lang="en">Extension of DCAT-AP for the TANGENT project.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">Cefriel</terms:publisher>
+        <terms:title xml:lang="en">TangentDCAT-AP</terms:title>
+        <bibo:status xml:lang="en">Published Metadata Specification</bibo:status>
         <rdfs:comment>Extension of DCAT-AP for the TANGENT project.</rdfs:comment>
         <rdfs:label>TangentDCAT-AP</rdfs:label>
+        <owl:versionInfo xml:lang="en">1.1.0</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -24,6 +35,55 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
     
 
 
