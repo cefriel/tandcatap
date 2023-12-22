@@ -7,6 +7,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap">
@@ -94,6 +95,34 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -103,6 +132,15 @@
      -->
 
 
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/terms/type">
+        <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/type-of-data controlled vocabulary.</vann:usageNote>
+    </owl:ObjectProperty>
     
 
 
@@ -126,14 +164,10 @@
     
 
 
-    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData -->
+    <!-- https://w3id.org/mobilitydcat-ap/mobilityTheme -->
 
 
-    <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData">
-        <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.</vann:usageNote>
-        <rdfs:comment>One or more data requirement(s) covered by the data source.</rdfs:comment>
-        <rdfs:label>Type of data</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="https://w3id.org/mobilitydcat-ap/mobilityTheme"/>
     
 
 
@@ -172,6 +206,13 @@
 
 
     <owl:Class rdf:about="http://purl.org/dc/terms/Location"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
@@ -265,6 +306,19 @@
 
 
     <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q647"/>
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:definition xml:lang="en">TANGENT Reference Conceptual Model</skos:definition>
+        <skos:inScheme rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+        <skos:prefLabel xml:lang="en">TANGENT Reference Conceptual Model</skos:prefLabel>
+        <skos:topConceptOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobility-data-standard"/>
+    </owl:NamedIndividual>
     
 
 

@@ -56,9 +56,30 @@
 <http://purl.org/vocab/vann/usageNote> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> rdf:type owl:AnnotationProperty .
+
+
 #################################################################
 #    Object Properties
 #################################################################
+
+###  http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> rdf:type owl:ObjectProperty ;
+                                <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/type-of-data controlled vocabulary." .
+
 
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy
 :caseStudy rdf:type owl:ObjectProperty ;
@@ -72,11 +93,8 @@
                  rdfs:label "Data Requirement" .
 
 
-###  https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData
-:typeOfData rdf:type owl:ObjectProperty ;
-            <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." ;
-            rdfs:comment "One or more data requirement(s) covered by the data source." ;
-            rdfs:label "Type of data" .
+###  https://w3id.org/mobilitydcat-ap/mobilityTheme
+<https://w3id.org/mobilitydcat-ap/mobilityTheme> rdf:type owl:ObjectProperty .
 
 
 #################################################################
@@ -93,6 +111,10 @@
 
 ###  http://purl.org/dc/terms/Location
 <http://purl.org/dc/terms/Location> rdf:type owl:Class .
+
+
+###  http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
 
 
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy
@@ -139,6 +161,15 @@
 
 
 ###  https://www.wikidata.org/wiki/Q647
+
+###  https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel
+:TangentReferenceConceptualModel rdf:type owl:NamedIndividual ,
+                                          <http://www.w3.org/2004/02/skos/core#Concept> ;
+                                 <http://www.w3.org/2004/02/skos/core#definition> "TANGENT Reference Conceptual Model"@en ;
+                                 <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> ;
+                                 <http://www.w3.org/2004/02/skos/core#prefLabel> "TANGENT Reference Conceptual Model"@en ;
+                                 <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+
 
 ###  https://www.wikidata.org/wiki/Q1524
 <https://www.wikidata.org/wiki/Q1524> rdf:type owl:NamedIndividual .

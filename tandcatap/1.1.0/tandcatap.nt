@@ -44,6 +44,18 @@
 # http://purl.org/vocab/vann/usageNote
 <http://purl.org/vocab/vann/usageNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # 
 # 
 # #################################################################
@@ -52,6 +64,10 @@
 # #
 # #################################################################
 # 
+# 
+# http://purl.org/dc/terms/type
+<http://purl.org/dc/terms/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/type> <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/type-of-data controlled vocabulary." .
 # 
 # https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#caseStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
@@ -63,11 +79,8 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more data requirement(s) covered by the data source." .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Data Requirement" .
 # 
-# https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData
-<https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData> <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." .
-<https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more data requirement(s) covered by the data source." .
-<https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData> <http://www.w3.org/2000/01/rdf-schema#label> "Type of data" .
+# https://w3id.org/mobilitydcat-ap/mobilityTheme
+<https://w3id.org/mobilitydcat-ap/mobilityTheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 # 
 # 
 # 
@@ -92,6 +105,9 @@
 # 
 # http://purl.org/dc/terms/Location
 <http://purl.org/dc/terms/Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
 # https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#CaseStudy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -137,6 +153,14 @@
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes> <http://www.w3.org/2000/01/rdf-schema#label> "Rennes" .
 # 
 # https://www.wikidata.org/wiki/Q647
+# 
+# https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/2004/02/skos/core#definition> "TANGENT Reference Conceptual Model"@en .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/2004/02/skos/core#inScheme> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/2004/02/skos/core#prefLabel> "TANGENT Reference Conceptual Model"@en .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://w3id.org/mobilitydcat-ap/mobility-data-standard> .
 # 
 # https://www.wikidata.org/wiki/Q1524
 <https://www.wikidata.org/wiki/Q1524> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

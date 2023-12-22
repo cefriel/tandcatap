@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://knowledge.c-innovationhub.com/tangent/tandcatap","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://knowledge.c-innovationhub.com/tangent/tandcatap","name":"TangentDCAT-AP", "headline":"Extension of DCAT-AP for the TANGENT project.", "datePublished":"Fri Dec 15 18:50:43 CET 2023", "version":"1.1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Marco Comerio (Cefriel)"},{"@type":"Person","name":"Mario Scrocca (Cefriel)"}], "contributor":[{"@type":"Person","name":"The definition of TangentDCAT-AP is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme."}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"https://knowledge.c-innovationhub.com/tangent/tandcatap","image":"http://vowl.visualdataweb.org/webvowl/#iri=https://knowledge.c-innovationhub.com/tangent/tandcatap","name":"TangentDCAT-AP", "headline":"Extension of DCAT-AP for the TANGENT project.", "datePublished":"Fri Dec 22 18:16:08 CET 2023", "version":"1.1.0", "license":"https://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Marco Comerio (Cefriel)"},{"@type":"Person","name":"Mario Scrocca (Cefriel)"}], "contributor":[{"@type":"Person","name":"The definition of TangentDCAT-AP is a result of the TANGENT project (Grant Agreement 881825), co-funded by the European Commission under the Horizon 2020 Framework Programme."}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -83,6 +83,7 @@ $(function(){
 </div>
 </div>     
 
+
 <div id="abstract"><h2>Abstract</h2><span class="markdown">
 Extension of DCAT-AP for the TANGENT project.</span>
 </div>
@@ -94,9 +95,12 @@ TangentDCAT-AP is defined as an extension of <a href="https://w3id.org/mobilityd
 
 <p align="center"><img src="img/tandcatap.png" alt="TangentDCAT-AP overview" height="450"></p>
 
+Classes and properties not represented follow the recommendations and cardinalities provided by mobilityDCAT-AP. In the diagram, we highlighted in red the extensions introduced by mobilityDCAT-AP considering DCAT-AP, and in yellow the ones introduced by TANGENT DCAT-AP considering mobilityDCAT-AP.
+
 </span>
 </div>
 <div id="toc"></div> 
+   
 
 <!--OVERVIEW SECTION-->
     <div id="overview"><h2 id="overv" class="list">TangentDCAT-AP: Overview <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
@@ -126,8 +130,9 @@ This ontology has the following classes and properties.</span>
          title="https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement">Data Requirement</a>
    </li>
    <li>
-      <a href="#typeOfData"
-         title="https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData">Type of data</a>
+      <a href="#http://purl.org/dc/terms/type" title="http://purl.org/dc/terms/type">
+         <span>type</span>
+      </a>
    </li>
 </ul><h4>Named Individuals</h4><ul xmlns:extra="https://w3id.org/extra#"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -147,6 +152,10 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#Rennes"
          title="https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes">Rennes</a>
+   </li>
+   <li>
+      <a href="#TangentReferenceConceptualModel"
+         title="https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel">TANGENT Reference Conceptual Model</a>
    </li>
 </ul>
 </div>
@@ -226,8 +235,9 @@ This section provides details for each class and property defined by TangentDCAT
             title="https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement">Data Requirement</a>
       </li>
       <li>
-         <a href="#typeOfData"
-            title="https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData">Type of data</a>
+         <a href="#http://purl.org/dc/terms/type" title="http://purl.org/dc/terms/type">
+            <span>type</span>
+         </a>
       </li>
    </ul>
    <div class="entity" id="caseStudy">
@@ -261,16 +271,13 @@ This section provides details for each class and property defined by TangentDCAT
          <span class="markdown">One or more data requirement(s) covered by the data source.</span>
       </div>
    </div>
-   <div class="entity" id="typeOfData">
-      <h3>Type of data<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="http://purl.org/dc/terms/type">
+      <h3>type<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://knowledge.c-innovationhub.com/tangent/tandcatap#typeOfData</p>
-      <div class="comment">
-         <span class="markdown">One or more data requirement(s) covered by the data source.</span>
-      </div>
+         <strong>IRI:</strong> http://purl.org/dc/terms/type</p>
    </div>
 </div><div xmlns:extra="https://w3id.org/extra#"
      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -292,6 +299,10 @@ This section provides details for each class and property defined by TangentDCAT
       <li>
          <a href="#Rennes"
             title="https://knowledge.c-innovationhub.com/tangent/tandcatap#Rennes">Rennes</a>
+      </li>
+      <li>
+         <a href="#TangentReferenceConceptualModel"
+            title="https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel">TANGENT Reference Conceptual Model</a>
       </li>
    </ul>
    <div class="entity" id="Athens">
@@ -379,6 +390,26 @@ This section provides details for each class and property defined by TangentDCAT
             <a href="https://www.wikidata.org/wiki/Q647"
                target="_blank"
                title="https://www.wikidata.org/wiki/Q647">q647</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="TangentReferenceConceptualModel">
+      <h3>TANGENT Reference Conceptual Model<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://knowledge.c-innovationhub.com/tangent/tandcatap#TangentReferenceConceptualModel</p>
+      <div class="comment">
+         <span class="markdown">TANGENT Reference Conceptual Model</span>
+      </div>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="http://www.w3.org/2004/02/skos/core#Concept"
+               target="_blank"
+               title="http://www.w3.org/2004/02/skos/core#Concept">concept</a>
+            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
