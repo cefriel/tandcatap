@@ -1,0 +1,91 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#hasTopConcept
+<http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#inScheme
+<http://www.w3.org/2004/02/skos/core#inScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#topConceptOf
+<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2004/02/skos/core#ConceptScheme
+<http://www.w3.org/2004/02/skos/core#ConceptScheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://knowledge.c-innovationhub.com/tangent/status
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/description> "Status for data sources in the TANGENT Data Catalogue."@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/title> "TANGENT Data Source Status"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/approved> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-accessible> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-relevant> .
+# 
+# https://knowledge.c-innovationhub.com/tangent/status/approved
+<https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/status> .
+<https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/2004/02/skos/core#prefLabel> "Approved"@en .
+<https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/status> .
+# 
+# https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/status> .
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> <http://www.w3.org/2004/02/skos/core#prefLabel> "Incomplete Metadata"@en .
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/status> .
+# 
+# https://knowledge.c-innovationhub.com/tangent/status/not-accessible
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/status> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> <http://www.w3.org/2004/02/skos/core#prefLabel> "Not accessible"@en .
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/status> .
+# 
+# https://knowledge.c-innovationhub.com/tangent/status/not-relevant
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> <http://www.w3.org/2004/02/skos/core#inScheme> <https://knowledge.c-innovationhub.com/tangent/status> .
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> <http://www.w3.org/2004/02/skos/core#prefLabel> "Not relevant"@en .
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://knowledge.c-innovationhub.com/tangent/status> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

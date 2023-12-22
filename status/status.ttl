@@ -1,0 +1,30 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://knowledge.c-innovationhub.com/tangent/status> a skos:ConceptScheme;
+  dct:description "Status for data sources in the TANGENT Data Catalogue."@en;
+  dct:title "TANGENT Data Source Status"@en;
+  skos:hasTopConcept <https://knowledge.c-innovationhub.com/tangent/status/approved>,
+    <https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata>, <https://knowledge.c-innovationhub.com/tangent/status/not-accessible>,
+    <https://knowledge.c-innovationhub.com/tangent/status/not-relevant> .
+
+<https://knowledge.c-innovationhub.com/tangent/status/approved> a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/status>;
+  skos:prefLabel "Approved"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/status> .
+
+<https://knowledge.c-innovationhub.com/tangent/status/not-relevant> a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/status>;
+  skos:prefLabel "Not relevant"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/status> .
+
+<https://knowledge.c-innovationhub.com/tangent/status/not-accessible> a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/status>;
+  skos:prefLabel "Not accessible"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/status> .
+
+<https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> a skos:Concept;
+  skos:inScheme <https://knowledge.c-innovationhub.com/tangent/status>;
+  skos:prefLabel "Incomplete Metadata"@en;
+  skos:topConceptOf <https://knowledge.c-innovationhub.com/tangent/status> .
