@@ -1,4 +1,35 @@
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/tangent/data-requirements/1.0.0> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/description> "Controlled vocabulary for the list of data requirements defined in TANGENT."@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/publisher> "TANGENT WP2"@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/title> "TANGENT Data Requirements"@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data> .
+<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events> .
 # 
 # 
 # #################################################################
@@ -8,11 +39,23 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#hasTopConcept
 <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -53,31 +96,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # https://knowledge.c-innovationhub.com/tangent/data-requirements
 <https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/description> "Data Requirements for data sources enabling the TANGENT solution."@en .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://purl.org/dc/terms/title> "TANGENT Data Requirements"@en .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data> .
-<https://knowledge.c-innovationhub.com/tangent/data-requirements> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events> .
 # 
 # https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes
 <https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

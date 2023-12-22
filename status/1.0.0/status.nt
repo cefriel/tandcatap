@@ -1,4 +1,16 @@
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2002/07/owl#versionIRI> <https://knowledge.c-innovationhub.com/tangent/status/1.0.0> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/creator> "Mario Scrocca (Cefriel)"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/description> "Controlled vocabulary for the status of data sources in TANGENT."@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/publisher> "TANGENT WP2"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/title> "TANGENT Data Source Status"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0"@en .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/approved> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-accessible> .
+<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-relevant> .
 # 
 # 
 # #################################################################
@@ -8,11 +20,23 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # #################################################################
 # 
 # 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#hasTopConcept
 <http://www.w3.org/2004/02/skos/core#hasTopConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -53,12 +77,6 @@ _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/20
 # https://knowledge.c-innovationhub.com/tangent/status
 <https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#ConceptScheme> .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/description> "Status for data sources in the TANGENT Data Catalogue."@en .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://purl.org/dc/terms/title> "TANGENT Data Source Status"@en .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/approved> .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata> .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-accessible> .
-<https://knowledge.c-innovationhub.com/tangent/status> <http://www.w3.org/2004/02/skos/core#hasTopConcept> <https://knowledge.c-innovationhub.com/tangent/status/not-relevant> .
 # 
 # https://knowledge.c-innovationhub.com/tangent/status/approved
 <https://knowledge.c-innovationhub.com/tangent/status/approved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

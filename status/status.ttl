@@ -1,10 +1,18 @@
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <https://knowledge.c-innovationhub.com/tangent/status> a skos:ConceptScheme;
-  dct:description "Status for data sources in the TANGENT Data Catalogue."@en;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en;
+  dct:description "Controlled vocabulary for the status of data sources in TANGENT."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "TANGENT WP2"@en;
   dct:title "TANGENT Data Source Status"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  owl:versionIRI <https://knowledge.c-innovationhub.com/tangent/status/1.0.0>;
+  owl:versionInfo "1.0.0"@en;
   skos:hasTopConcept <https://knowledge.c-innovationhub.com/tangent/status/approved>,
     <https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata>, <https://knowledge.c-innovationhub.com/tangent/status/not-accessible>,
     <https://knowledge.c-innovationhub.com/tangent/status/not-relevant> .

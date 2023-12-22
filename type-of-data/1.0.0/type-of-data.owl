@@ -1,14 +1,27 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
+<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/tangent/type-of-data#"
+     xml:base="https://knowledge.c-innovationhub.com/tangent/type-of-data"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <Ontology/>
+    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data">
+        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/1.0.0"/>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the type of data defined in TANGENT.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">TANGENT WP2</terms:publisher>
+        <terms:title xml:lang="en">TANGENT Type of data</terms:title>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/historical"/>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time"/>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/static"/>
+    </owl:Ontology>
     
 
 
@@ -24,52 +37,80 @@
     
 
 
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
     
 
 
@@ -88,14 +129,14 @@
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
 
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
 
 
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     
 
 
@@ -114,53 +155,48 @@
     <!-- https://knowledge.c-innovationhub.com/tangent/type-of-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-        <terms:description xml:lang="en">Type of data defined in TANGENT.</terms:description>
-        <terms:title xml:lang="en">TANGENT Type of data</terms:title>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/historical"/>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time"/>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data/static"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/type-of-data/historical -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/historical">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/historical">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Filtered, aggregated and stored static or real-time data.</skos:definition>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
         <skos:prefLabel xml:lang="en">Historical</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/real-time">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Data that are constantly changing and provide up-to-date information.</skos:definition>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
         <skos:prefLabel xml:lang="en">Real-time</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/type-of-data/static -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/static">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/type-of-data/static">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:definition xml:lang="en">Data that do not change or change in very long intervals.</skos:definition>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
         <skos:prefLabel xml:lang="en">Static</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/type-of-data"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

@@ -17,8 +17,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://knowledge.c-innovationhub.com/tangent/data-requirements> a skos:ConceptScheme;
-  dct:description "Data Requirements for data sources enabling the TANGENT solution."@en;
+  a owl:Ontology;
+  dct:creator "Mario Scrocca (Cefriel)"@en;
+  dct:description "Controlled vocabulary for the list of data requirements defined in TANGENT."@en;
+  dct:license <https://creativecommons.org/licenses/by/4.0/>;
+  dct:publisher "TANGENT WP2"@en;
   dct:title "TANGENT Data Requirements"@en;
+  <http://purl.org/ontology/bibo/status> "Published Controlled Vocabulary"@en;
+  owl:versionIRI <https://knowledge.c-innovationhub.com/tangent/data-requirements/1.0.0>;
+  owl:versionInfo "1.0.0"@en;
   skos:hasTopConcept <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data>,
     <https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data>,
     <https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays>,

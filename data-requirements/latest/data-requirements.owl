@@ -1,116 +1,23 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
+<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/tangent/data-requirements#"
+     xml:base="https://knowledge.c-innovationhub.com/tangent/data-requirements"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <Ontology/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://purl.org/dc/terms/description -->
-
-
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
-
-
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
-
-
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
-
-
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-
-    
-
-
-    <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements -->
-
-
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-        <terms:description xml:lang="en">Data Requirements for data sources enabling the TANGENT solution.</terms:description>
+    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements">
+        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/1.0.0"/>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the list of data requirements defined in TANGENT.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">TANGENT WP2</terms:publisher>
         <terms:title xml:lang="en">TANGENT Data Requirements</terms:title>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes"/>
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone"/>
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics"/>
@@ -134,283 +41,412 @@
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times"/>
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data"/>
         <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events"/>
-    </NamedIndividual>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements -->
+
+
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/data-about-other-transportation-modes">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Data About Other Transportation Modes</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/dcp-policy-zone">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">DCP Policy Zone</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/drt-fleet-characteristics">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">DRT Fleet Characteristics</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-public-transport-vehicle-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Floating Public Transport Vehicle Data</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/floating-vehicle-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Floating Vehicle Data</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/forecasted-weather-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Forecasted Weather Data</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/holiday-calendar">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Holiday Calendar</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/influencing-planned-events">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Influencing Planned Events</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-delays">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Delays</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Network</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-events">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Network Events</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-network-incidents">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Network Incidents</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-occupancy">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Occupancy</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-schedules-and-lines">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Schedules And Lines</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/public-transport-ticket-validation-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Public Transport Ticket Validation Data</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-equipment-position">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Equipment Position</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-traffic-measurements">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Traffic Measurements</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Transport Network</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-events">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Transport Network Events</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-transport-network-incidents">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Transport Network Incidents</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/road-travel-times">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Road Travel Times</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-data">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Weather Data</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/data-requirements/weather-events">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
         <skos:prefLabel xml:lang="en">Weather Events</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/data-requirements"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 

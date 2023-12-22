@@ -1,14 +1,28 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.w3.org/2002/07/owl"
+<rdf:RDF xmlns="https://knowledge.c-innovationhub.com/tangent/status#"
+     xml:base="https://knowledge.c-innovationhub.com/tangent/status"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/">
-    <Ontology/>
+    <owl:Ontology rdf:about="https://knowledge.c-innovationhub.com/tangent/status">
+        <owl:versionIRI rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/1.0.0"/>
+        <terms:creator xml:lang="en">Mario Scrocca (Cefriel)</terms:creator>
+        <terms:description xml:lang="en">Controlled vocabulary for the status of data sources in TANGENT.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:publisher xml:lang="en">TANGENT WP2</terms:publisher>
+        <terms:title xml:lang="en">TANGENT Data Source Status</terms:title>
+        <bibo:status xml:lang="en">Published Controlled Vocabulary</bibo:status>
+        <owl:versionInfo xml:lang="en">1.0.0</owl:versionInfo>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/approved"/>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata"/>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/not-accessible"/>
+        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/not-relevant"/>
+    </owl:Ontology>
     
 
 
@@ -24,45 +38,73 @@
     
 
 
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
     <!-- http://purl.org/dc/terms/description -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
     
 
 
     <!-- http://purl.org/dc/terms/title -->
 
 
-    <AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#hasTopConcept -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#topConceptOf -->
 
 
-    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
     
 
 
@@ -81,14 +123,14 @@
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
 
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
     
 
 
     <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
 
 
-    <Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     
 
 
@@ -107,63 +149,57 @@
     <!-- https://knowledge.c-innovationhub.com/tangent/status -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-        <terms:description xml:lang="en">Status for data sources in the TANGENT Data Catalogue.</terms:description>
-        <terms:title xml:lang="en">TANGENT Data Source Status</terms:title>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/approved"/>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata"/>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/not-accessible"/>
-        <skos:hasTopConcept rdf:resource="https://knowledge.c-innovationhub.com/tangent/status/not-relevant"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/status/approved -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/approved">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/approved">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
         <skos:prefLabel xml:lang="en">Approved</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/incomplete-metadata">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
         <skos:prefLabel xml:lang="en">Incomplete Metadata</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/status/not-accessible -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/not-accessible">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/not-accessible">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
         <skos:prefLabel xml:lang="en">Not accessible</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
     
 
 
     <!-- https://knowledge.c-innovationhub.com/tangent/status/not-relevant -->
 
 
-    <NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/not-relevant">
+    <owl:NamedIndividual rdf:about="https://knowledge.c-innovationhub.com/tangent/status/not-relevant">
         <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <skos:inScheme rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
         <skos:prefLabel xml:lang="en">Not relevant</skos:prefLabel>
         <skos:topConceptOf rdf:resource="https://knowledge.c-innovationhub.com/tangent/status"/>
-    </NamedIndividual>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
