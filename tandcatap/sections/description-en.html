@@ -1,0 +1,157 @@
+<h2 id="desc" class="list">TangentDCAT-AP: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+
+<span class="markdown">
+TangentDCAT-AP is defined as an extension of <a href="https://w3id.org/mobilitydcat-ap/releases/">mobilityDCAT-AP</a> for the TANGENT project. 
+
+This namespace defines the additional classes, properties and individuals defined by TangentDCAT-AP. The
+controlled vocabularies defined for TangentDCAT-AP are accessible at:
+-   <https://knowledge.c-innovationhub.com/tangent/status> (*tanstatus:*
+    prefix) controlled vocabulary for the possible statuses assigned to
+    data sources in the TANGENT Data Catalogue (approved, incomplete
+    metadata, not accessible, not relevant), implemented as a SKOS
+    Taxonomy;
+-   <https://knowledge.c-innovationhub.com/tangent/data-requirements>
+    (*tandreq:* prefix) controlled vocabulary for the categorisation of data sources according to the TANGENT Data Requirements, implemented as a SKOS Taxonomy;
+-   <https://knowledge.c-innovationhub.com/tangent/type-of-data>
+    (*tantype:* prefix) controlled vocabulary for the categorisation of the type of data sources
+    according to the TANGENT Data Requirements, implemented as a SKOS
+    Taxonomy.
+    
+An overview of the extension and the modifications introduced is represented in the diagram below.
+
+<p align="center"><img src="./sections/media/tandcatap.png" alt="TangentDCAT-AP overview" height="450"></p>
+
+Classes and properties not represented follow the recommendations and cardinalities provided by mobilityDCAT-AP. In the diagram, we highlighted in red the extensions introduced by mobilityDCAT-AP considering DCAT-AP, and in yellow the ones introduced by TangentDCAT-AP considering mobilityDCAT-AP.
+
+TangentDCAT-AP fulfils the *mandatory* cardinalities defined by
+mobilityDCAT-AP and the additional recommendations defined by
+considering the specific TANGENT requirements. Each metadata field is serialized in RDF considering
+the corresponding class and the associated properties (*adms:*
+[http://www.w3.org/ns/adms#](http://www.w3.org/ns/adms#), *dcat:*
+[http://www.w3.org/ns/dcat#](http://www.w3.org/ns/dcat#), *dct:*
+<http://purl.org/dc/terms/>, *foaf:* <http://xmlns.com/foaf/0.1/> ,
+*tandcatap:* <https://knowledge.c-innovationhub.com/tangent/tandcatap>).
+
+Additional vocabularies adopted are defined in mobilityDCAT-AP:
+
+-   [https://w3id.org/mobilitydcat-ap#](https://w3id.org/mobilitydcat-ap)
+    (*mobilitydcatap:* prefix) defines the additional classes,
+    properties and individuals introduced by mobilityDCAT-AP and usage
+    notes according to the specification;
+
+-   <https://w3id.org/mobilitydcat-ap/mobility-data-standard> controlled
+    vocabulary for established standards used to represent mobility
+    data, implemented as a SKOS Taxonomy.
+
+Four *dcat:Catalog* individuals are defined by TangentDCAT-AP and are associated
+with four individuals of class *tandcatap:CaseStudy* introduced to
+univocally represent the TANGENT case studies (Athens, Lisbon, Greater
+Manchester, Rennes Metropole). The *dct:publisher* of each
+*dcat:Catalog* refers to the case study leader.
+
+The list of metadata for a data source published in the catalogue is
+represented as three interconnected individuals to fulfil the
+cardinalities defined by mobilityDCAT-AP:
+-   *dcat:CatalogRecord:* individual for metadata associated with the
+    record describing a data source in the catalogue. A *dcat:Catalog*
+    should be associated with one or more *dcat:CatalogRecord* using the
+    *dcat:record* property (mandatory).
+    -   *dct:created* and *dct:modified* (mandatory) represent the timestamp
+        of creation and last modification of the data source;
+    -   *adms:status* (mandatory) status of the record in the
+        Data Catalogue. The dedicated controlled
+        vocabulary *tanstatus:* is used to serialise the admissible
+        values.
+        -   Obligation raised to *mandatory* in TangentDCAT-AP due to
+            the need for the TANGENT Management Board to assign a status to the data sources
+            in the catalogue.
+-   *dcat:Dataset:* individual for metadata associated with a data
+    source in the catalogue. A dcat:Catalog is associated with a
+    dcat:Dataset using the *dcat:dataset* property (*mandatory*). A
+    *dcat:CatalogRecord* is associated with a *dcat:Dataset* using the
+    *foaf:primaryTopic* property (mandatory).
+    -   *dct:identifier* (mandatory): Identifier of the data source.
+        -   Obligation raised to *mandatory* in TangentDCAT-AP due to the
+            core role of identifiers in referencing and accessing the data
+            sources.
+    -   *dct:title* (mandatory): Name of the data source.
+    -   *dct:description* (mandatory): Description of the data source.
+    -   *tandcatap:caseStudy* (mandatory): Case study the data source is
+        related to. The range of the property is the *tandcatap:caseStudy*
+        class.
+    -   *tandcatap:dataRequirement* (mandatory): One or more data
+        requirement(s) covered by the data source. The dedicated controlled vocabulary
+        *tandreq:* is used to serialise the admissible values.
+        -   The *tandcatap:dataRequirement* property is defined as a
+            subproperty of *mobilitydcatap:mobilityTheme,* and it can be
+            used to satisfy its *mandatory* obligation. To better support
+            the categorization of data sources adopted in TANGENT, we
+            defined a subproperty to restrict the recommended range of
+            values to the *tandreq:* vocabulary in TangentDCAT-AP.
+    -   *dct:type* (recommended): Specify if the type of data in the data
+        source is static, real-time or historical. The dedicated
+        controlled vocabulary *tantype*: is used to serialise the admissible
+        values.
+    -   *dcat:theme* (recommended): Category/ies describing the data in the
+        data source.
+        -   The usage of the *mobilitydcatap:mobilityTheme* subproperty and
+            the associated controlled vocabulary defined by mobilityDCAT-AP is recommended.
+    -   *dct:publisher* (*mandatory* as in mobilityDCAT-AP): The
+        user that provides the data source. The publisher should be
+        modelled as an individual of class *foaf:Agent*, and described at
+        least by an email address (*foaf:mbox* mandatory property).
+    -   *dcat:spatial* (*mandatory* as in mobilityDCAT-AP): The
+        geographical coverage of the data in the data source (e.g., group of
+        streets, specific area, city, metropolitan area, region, national)
+        as *dct:Location*.
+    -   *dcat:spatialResolutionInMeters* (optional): The geographical
+        aggregation of the data in the data source (e.g., kilometres,
+        metres, etc.).
+    -   *dcat:temporal* (recommended): The timeframe of the data in the data
+        source (e.g., last year, 31st December 2020, 2017-2021, specific
+        period, etc\...) as *dct:PeriodOfTime*.
+    -   *dcat:temporalResolution* (optional): The temporal aggregation of
+        the data in the data source (e.g., minutely, hourly, weekly,
+        monthly, or event-based).
+    -   *dct:accrualPeriodicity* (mandatory as in mobilityDCAT-AP): Describes how often the
+        content of the data source is updated.
+    -   *dct:source* (optional): Reference to the original data source(s)
+        from which this data source is originated, e.g., as a result of a
+        data fusion process.
+-   *dcat:Distribution:* individual for metadata associated with the
+    different distributions available to get access to a data source in
+    the catalogue (e.g., different serialisation of a data source). A *dcat:Dataset* is associated with one or more *dcat:Distribution* using the *dcat:distribution* property (mandatory).
+-   *dct:license* (mandatory): The terms for the access and usage of the
+    distribution (e.g., open data, available only under agreement,
+    released with specific licences).
+    -   Raised to mandatory in TangentDCAT-AP to satisfy the obligation
+        for the super-property *dct:rights* in mobilityDCAT-AP.
+-   *mobilitydcatap:mobilityDataStandard* (mandatory): The data
+    schema/model adopted to represent the data in the distribution
+    (e.g., GTFS, NeTEx, Datex II, SIRI, etc). The dedicated controlled
+    vocabulary *mobilitydcatap:mobility-data-standard* is used to
+    serialise the admissible values.
+    -   To comply with mobilityDCAT-AP, it is changed from
+        *dct:conformsTo* to *mobilitydcatap:mobilityDataStandard* and
+        the obligation is raised to *mandatory*.
+    -   TangentDCAT-AP defines an additional admissible value for the
+        *mobilitydcatap:mobility-data-standard* taxonomy to represent
+        data harmonised according to the TANGENT Reference Conceptual
+        Model (*tandcatap:* *TangentReferenceConceptualModel*).
+-   *dct:format* (raised to *mandatory* as in mobilityDCAT-AP): The
+    format used to encode the data in the distribution (e.g., XML, CSV,
+    JSON). The vocabulary <http://publications.europa.eu/resource/dataset/file-type> is
+    recommended to serialise the admissible values as defined in DCAT-AP.
+-   *dcat:accessURL* (mandatory): URL redirecting to a web page or an
+    endpoint to access the data.
+    -   Following usage notes in mobilityDCAT-AP, this property can be
+        used both for datasets and data services. Therefore, we removed
+        from TangentDCAT-AP the distinction and the *mandatory*
+        obligation associated with *dcat:endpointURL.*
+-   *dcat:downloadURL* (optional): URL for the direct download of the
+    distribution. It can coincide with the *dcat:accessURL*.
+-   *adms:sample (*optional*)*: URL for the download of a sample of the
+    distribution.
+    -   Following the usage notes in mobilityDCAT-AP, this property can
+        be used directly with a *dcat:Distribution* entity.
+</span>

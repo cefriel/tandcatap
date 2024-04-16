@@ -88,6 +88,7 @@
 
 ###  https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement
 :dataRequirement rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf <https://w3id.org/mobilitydcat-ap/mobilityTheme> ;
                  <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." ;
                  rdfs:comment "One or more data requirement(s) covered by the data source." ;
                  rdfs:label "Data Requirement" .

@@ -189,6 +189,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Data Requirement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/mobilitydcat-ap/mobilityTheme"
   } ]
 }, {
   "@id" : "https://w3id.org/mobilitydcat-ap/mobilityTheme",

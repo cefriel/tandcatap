@@ -75,6 +75,7 @@
 # 
 # https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/mobilitydcat-ap/mobilityTheme> .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://purl.org/vocab/vann/usageNote> "The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary." .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#comment> "One or more data requirement(s) covered by the data source." .
 <https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement> <http://www.w3.org/2000/01/rdf-schema#label> "Data Requirement" .

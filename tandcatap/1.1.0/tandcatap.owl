@@ -157,6 +157,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://knowledge.c-innovationhub.com/tangent/tandcatap#dataRequirement">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/mobilitydcat-ap/mobilityTheme"/>
         <vann:usageNote>The recommended values are defined through the https://knowledge.c-innovationhub.com/tangent/data-requirements controlled vocabulary.</vann:usageNote>
         <rdfs:comment>One or more data requirement(s) covered by the data source.</rdfs:comment>
         <rdfs:label>Data Requirement</rdfs:label>
